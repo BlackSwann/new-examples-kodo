@@ -1,0 +1,8 @@
+#! /usr/bin/env python
+# encoding: utf-8
+
+bld.program(features='cxx',
+            source=['encrypted_payload.cpp'],
+            target='encrypted_payload',
+            use=['kodo_includes'],
+            lib=['cryptopp'])

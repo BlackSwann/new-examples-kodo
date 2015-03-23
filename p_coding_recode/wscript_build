@@ -1,0 +1,7 @@
+#! /usr/bin/env python
+# encoding: utf-8
+
+bld.program(features='cxx',
+            source=['p_coding_recode.cpp'],
+            target='p_coding_recode',
+            use=['kodo_includes'])

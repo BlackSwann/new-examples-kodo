@@ -1,0 +1,8 @@
+#! /usr/bin/env python
+# encoding: utf-8
+
+bld.program(features='cxx',
+            source=['spoc_recode.cpp'],
+            target='spoc_recod',
+            use=['kodo_includes'],
+            lib=['cryptopp'])
