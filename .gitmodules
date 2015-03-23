@@ -1,0 +1,3 @@
+[submodule "cryptopp-code"]
+	path = cryptopp-code
+	url = https://github.com/BlackSwann/cryptopp-code.git
