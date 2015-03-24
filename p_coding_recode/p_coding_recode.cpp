@@ -76,12 +76,7 @@ int main()
 
         // Generate encode the vector
         encoder->write_payload(payload.data());
-
-
-        // printvector(payload);
-        std::cout << std::endl << std::endl;
-          printvector(payload);
-       
+     
 
         // Saving in an auxiliar array the vector. 
         uint8_t* aux = (uint8_t*) malloc((symbols + symbol_size) * sizeof(uint8_t));;
